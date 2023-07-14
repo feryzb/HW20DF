@@ -1,0 +1,29 @@
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 62px;
+  padding-right: 90px;
+
+}
+
+.nav-link {
+  color: black;
+}
+
+.hamburger {
+  display: none;
+}
+.btn {
+  width: 205px;
+    height: 54px;
+    flex-shrink: 0;
+  border-radius: 9px;
+    background: var(--3, linear-gradient(122deg, #F32C6D 29.57%, #CB1D95 85.47%));
+}

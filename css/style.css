@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope";
+}
+
+.container {
+  max-width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 62px;
+  padding-right: 90px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.hamburger {
+  display: none;
+}
+
+.btn {
+  width: 205px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: var(--3, linear-gradient(122deg, #F32C6D 29.57%, #CB1D95 85.47%));
+}
+
+.home-right,
+.home-left {
+  width: 50%;
+}
+
+.home__container {
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  background: #F7F6FF;
+}
+
+.home__right img {
+  width: 100%;
+}
+
+.btn__extend, .home__left .btn3, .home__left .btn2, .home__left .btn1 {
+  border-radius: 250px;
+  background: #77B2D3;
+  color: white;
+}
+
+.home__left h1 {
+  color: var(--unnamed, #333);
+  font-family: "Manrope";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 65px;
+  text-transform: uppercase;
+}
+.home__left .btn1 {
+  margin-top: 50px;
+  width: 241px;
+  height: 54px;
+  flex-shrink: 0;
+}
+.home__left .btn2 {
+  width: 114px;
+  height: 54px;
+  flex-shrink: 0;
+}
+.home__left .btn3 {
+  width: 141px;
+  height: 54px;
+  flex-shrink: 0;
+}

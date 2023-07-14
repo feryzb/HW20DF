@@ -1,0 +1,54 @@
+.home-right,
+.home-left {
+  width: 50%;
+}
+
+.home__container {
+  
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  background: #F7F6FF;
+}
+.home__right img {
+  width: 100%;
+}
+.btn__extend {
+    border-radius: 250px;
+      background: #77B2D3;
+      color:white;
+}
+.home__left {
+  
+ h1 {
+  color: var(--unnamed, #333);
+    font-family: "Manrope";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 65px;
+    text-transform: uppercase;
+ }
+ .btn1 {
+  margin-top: 50px;
+  width: 241px;
+    height: 54px;
+    flex-shrink: 0;
+    @extend .btn__extend
+    
+ }
+ .btn2 {
+  width: 114px;
+    height: 54px;
+    flex-shrink: 0;
+    @extend .btn__extend 
+      
+  
+ }
+ .btn3 {
+  width: 141px;
+    height: 54px;
+    flex-shrink: 0;
+      @extend .btn__extend
+ }
+}
